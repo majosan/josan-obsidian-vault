@@ -1,0 +1,286 @@
+{
+  "main": {
+    "id": "8c9b9b71931b3c7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bf3f1118efdba39",
+        "type": "tabs",
+        "dimension": 49.90974729241877,
+        "children": [
+          {
+            "id": "1f12fc44d5bd0afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ai-chemical-lab/项目立项书.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目立项书"
+            }
+          },
+          {
+            "id": "9543a296c3d00abc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ai-chemical-lab/项目立项书.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目立项书"
+            }
+          },
+          {
+            "id": "19d7d7063be33f66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ai-chemical-lab/项目立项书.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目立项书"
+            }
+          },
+          {
+            "id": "c9b17d255b6108c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调研/LabVLA框架解读.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LabVLA框架解读"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "d728ee3ca6a37b20",
+        "type": "tabs",
+        "dimension": 50.09025270758123,
+        "children": [
+          {
+            "id": "3e4fb18a62e39546",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "调研/世界模型的理解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "世界模型的理解"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6253a6f18aa29dd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1103eae1793acfc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf51a85e9022a4a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0eefcb9cb025dd09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3229e8382b3c023c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 450.5
+  },
+  "right": {
+    "id": "9b747a8e5225913d",
+    "type": "split",
+    "children": [
+      {
+        "id": "606a1aeaf7f04095",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2db81b7f2400dff4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AI/物理AI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "物理AI 的反向链接列表"
+            }
+          },
+          {
+            "id": "86fc9050dc5f97e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AI/物理AI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "物理AI 的出链列表"
+            }
+          },
+          {
+            "id": "18b2dcf70b128ead",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e59b2b27e7fa3f40",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d0b513ff5c286242",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AI/物理AI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "物理AI 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "3e4fb18a62e39546",
+  "lastOpenFiles": [
+    "调研/LABVAL整个流程细节理解.md",
+    "调研/世界模型的理解.md",
+    "调研/预训练和后训练的理解.md",
+    "Ai-chemical-lab项目工作计划/LabVLA 使用 Conda 搭建量化推理环境指南.md",
+    "调研/LabVLA框架解读.md",
+    "调研/VQ-VAE 编码框架.md",
+    "高通量化学实验室的多模态数据融合路线.md",
+    "Ai-chemical-lab/上海ai-lab详解及技术拆解分析.md",
+    "未命名.md",
+    "调研/LabVLA.md",
+    "Ai-chemical-lab项目工作计划/labvla-phase2-mission.md",
+    "Ai-chemical-lab项目工作计划/labvla-claudecode-checklist.md",
+    "Ai-chemical-lab项目工作计划/Phase 1 验收结果.md",
+    "Ai-chemical-lab项目工作计划/labvla-setup-guide.md",
+    "Ai-chemical-lab项目工作计划/工作分解.md",
+    "Ai-chemical-lab项目工作计划/knowledge知识点.md",
+    "Ai-chemical-lab项目工作计划/plansteps.md",
+    "调研/Ai-chemical-lab技术路径分析讨论总结 1.1.md",
+    "Ai-chemical-lab/Ai-chemical-lab技术路径分析讨论总结.md",
+    "Ai-chemical-lab/Ai-chemical-lab技术路径分析讨论总结 1.1.md",
+    "调研/LabVLA，T-Rex和RobotGenesis讲解.md",
+    "调研/project-leader-handbook.md",
+    "调研/RoboGenesis.md",
+    "调研/STAG-MIT-Nature2019 技术迁移.md",
+    "调研/T-Rex讲解结合项目技术方向讲解.md",
+    "Ai-chemical-lab/feasibility-analysis.md",
+    "调研",
+    "Ai-chemical-lab项目工作计划",
+    "Ai-chemical-lab",
+    "AI",
+    "半导体产业链"
+  ]
+}
