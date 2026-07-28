@@ -3,6 +3,48 @@
 .obsidian/workspace
 .trash/
 
-# OS
+# ===== AI 工作区系统文件（不同步到 Obsidian）=====
+AGENTS.md
+SOUL.md
+IDENTITY.md
+HEARTBEAT.md
+TOOLS.md
+USER.md
+MEMORY.md
+memory/
+bridge.ps1
+.claude/
+.clawdhub/
+.clawhub/
+.openclaw/
+skills/
+subagents/
+
+# ===== Node / Env =====
+node_modules/
+.env
+
+# ===== MuJoCo 模型库（公开数据，可独立下载）=====
+projects/ai-chem-lab/data/simulation/mujoco_menagerie/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ===== IDE & OS =====
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
 Thumbs.db
+
+# ===== 日志 =====
+*.log
