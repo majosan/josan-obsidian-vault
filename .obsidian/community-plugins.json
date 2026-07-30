@@ -1,5 +1,4 @@
-{
-  "enabledPlugins": [
-    "obsidian-git"
-  ]
-}
+[
+  "advanced-canvas",
+  "obsidian-git"
+]
