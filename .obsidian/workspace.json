@@ -11,17 +11,14 @@
             "id": "75e4163985eed6f3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
-                "viewState": {
-                  "x": 510,
-                  "y": 46.7028301886792,
-                  "zoom": 0.18102599467556235
-                }
+                "file": "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GPT推理流程全景"
+              "icon": "lucide-file",
+              "title": "01-环境搭建与概念入门"
             }
           }
         ],
@@ -201,9 +198,9 @@
   },
   "active": "75e4163985eed6f3",
   "lastOpenFiles": [
+    "05-LLM从零构建/GPT推理流程全景.canvas",
     "05-LLM从零构建/01-学习路线图.md",
     "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
-    "05-LLM从零构建/GPT推理流程全景.canvas",
     "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
     "05-LLM从零构建/00-教程分析.md",
     "05-LLM从零构建/学习心得/2026-07-29.md",
