@@ -105,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-LLM从零构建/学习心得/2026-07-29.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "2026-07-29 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -205,12 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75e4163985eed6f3",
+  "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
+    "05-LLM从零构建/学习心得/2026-07-29.md",
     "05-LLM从零构建/学习笔记/01.6-GPT推理流程深度讲解.md",
     "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
     "Ai-chemical-lab项目工作计划/knowledge知识点.md",
-    "05-LLM从零构建/学习心得/2026-07-29.md",
     "01-AI化学实验室/学习心得.md",
     "Ai-chemical-lab项目工作计划/工作分解.md",
     "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
