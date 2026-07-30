@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a8fc451cfdfbf0cf",
+        "id": "b317e66e5fdeb442",
         "type": "tabs",
         "children": [
           {
-            "id": "75e4163985eed6f3",
+            "id": "c3db850d7a42ef9d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
-                "viewState": {
-                  "x": 490,
-                  "y": 392.9591642945656,
-                  "zoom": 0.46673862297616964
-                }
+                "file": "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GPT推理流程全景"
+              "icon": "lucide-file",
+              "title": "01.5-概念深度剖析-LLM全景地图"
             }
           }
         ],
@@ -112,17 +109,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-AI化学实验室/项目实施/原位红外/DRIFTS-机器人化-项目简报.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "DRIFTS-机器人化-项目简报 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -178,14 +174,23 @@
               "icon": "lucide-file",
               "title": "新标签页"
             }
+          },
+          {
+            "id": "75e4163985eed6f3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 667.5,
-    "collapsed": true
+    "width": 667.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +207,14 @@
   "active": "75e4163985eed6f3",
   "lastOpenFiles": [
     "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
+    "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
+    "05-LLM从零构建/00-教程分析.md",
+    "00-总览.md",
+    "05-LLM从零构建/学习心得/2026-07-29.md",
+    "05-LLM从零构建/GPT推理流程全景.canvas",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
     "01-AI化学实验室/学习心得.md",
-    "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
-    "05-LLM从零构建/GPT推理流程全景.canvas",
     "05-LLM从零构建/01-学习路线图.md",
-    "05-LLM从零构建/00-教程分析.md",
-    "05-LLM从零构建/学习心得/2026-07-29.md",
     "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
     "05-LLM从零构建/学习笔记",
     "05-LLM从零构建/学习心得",
@@ -232,7 +238,6 @@
     "tasks/T004-HM-Phase1-LabVLA-Verification.md",
     "tasks/T003-WS-Phase2-MuJoCoLabVLAClosedLoop.md",
     "tasks/T003-HM-SetupLabVLAEnv.md",
-    "tasks/T002-LP-Sample-LabVLATest.md",
     "tasks",
     "shared/agents/market-research",
     "shared/agents/report-assistant",
