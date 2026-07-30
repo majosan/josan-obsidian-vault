@@ -11,10 +11,17 @@
             "id": "75e4163985eed6f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "canvas",
+              "state": {
+                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
+                "viewState": {
+                  "x": 490,
+                  "y": 392.9591642945656,
+                  "zoom": 0.46673862297616964
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GPT推理流程全景"
             }
           }
         ],
@@ -194,12 +201,12 @@
   },
   "active": "75e4163985eed6f3",
   "lastOpenFiles": [
+    "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
     "01-AI化学实验室/学习心得.md",
     "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
     "05-LLM从零构建/GPT推理流程全景.canvas",
     "05-LLM从零构建/01-学习路线图.md",
-    "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
     "05-LLM从零构建/00-教程分析.md",
     "05-LLM从零构建/学习心得/2026-07-29.md",
     "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
