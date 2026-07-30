@@ -11,10 +11,17 @@
             "id": "c3db850d7a42ef9d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "canvas",
+              "state": {
+                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
+                "viewState": {
+                  "x": 354.92138364779856,
+                  "y": 1314.6772839688158,
+                  "zoom": -0.033261377023830474
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GPT推理流程全景"
             }
           }
         ],
@@ -105,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "GPT推理流程全景 的反向链接列表"
             }
           },
           {
