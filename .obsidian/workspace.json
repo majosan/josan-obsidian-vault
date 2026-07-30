@@ -105,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05-LLM从零构建/学习心得/2026-07-29.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "2026-07-29 的反向链接列表"
             }
           },
           {
@@ -204,8 +205,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3db850d7a42ef9d",
+  "active": "75e4163985eed6f3",
   "lastOpenFiles": [
+    "05-LLM从零构建/学习笔记/01.6-GPT推理流程深度讲解.md",
     "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
     "Ai-chemical-lab项目工作计划/knowledge知识点.md",
     "05-LLM从零构建/学习心得/2026-07-29.md",
@@ -237,7 +239,6 @@
     "01-AI化学实验室/蚂蚁灵波-具身智能研究",
     "tasks/T006-WS-TactileHeatmapViz.md",
     "tasks/T005-WS-TactileDataInjection.md",
-    "tasks/T004-HM-Phase1-LabVLA-Verification.md",
     "tasks",
     "shared/agents/market-research",
     "shared/agents/report-assistant",
