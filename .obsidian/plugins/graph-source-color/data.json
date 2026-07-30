@@ -1,0 +1,28 @@
+{
+  "sourceFolders": [
+    "01-AI化学实验室",
+    "02-触觉传感器",
+    "05-LLM从零构建",
+    "03-专利与IP",
+    "04-实验室自动化",
+    "05-其他",
+    "Ai-chemical-lab项目工作计划",
+    "Ai-chemical-lab",
+    "AI",
+    "调研"
+  ],
+  "groupColors": {
+    "01-AI化学实验室": "#4A90D9",
+    "02-触觉传感器": "#F5A623",
+    "05-LLM从零构建": "#7B68EE",
+    "projects": "#50C878",
+    "03-专利与IP": "#FF6B6B",
+    "04-实验室自动化": "#FFD93D",
+    "05-其他": "#6BCB77",
+    "Ai-chemical-lab项目工作计划": "#4D96FF",
+    "Ai-chemical-lab": "#C084FC",
+    "AI": "#FB923C",
+    "调研": "#34D399"
+  },
+  "enableMultiColor": true
+}
