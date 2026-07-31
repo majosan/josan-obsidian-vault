@@ -11,17 +11,14 @@
             "id": "c3db850d7a42ef9d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
-                "viewState": {
-                  "x": 354.92138364779856,
-                  "y": 1314.6772839688158,
-                  "zoom": -0.033261377023830474
-                }
+                "file": "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GPT推理流程全景"
+              "icon": "lucide-file",
+              "title": "02-文本数据处理-Ch2数据输入Pipeline"
             }
           }
         ],
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-LLM从零构建/GPT推理流程全景.canvas",
+                "file": "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "GPT推理流程全景 的反向链接列表"
+              "title": "02-文本数据处理-Ch2数据输入Pipeline 的反向链接列表"
             }
           },
           {
@@ -214,6 +211,9 @@
   },
   "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
+    "05-LLM从零构建/GPT推理流程全景.canvas",
+    "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
+    "05-LLM从零构建/学习心得/2026-07-30.md",
     "05-LLM从零构建/学习心得/2026-07-29.md",
     "05-LLM从零构建/学习笔记/01.6-GPT推理流程深度讲解.md",
     "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
@@ -223,7 +223,6 @@
     "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
     "05-LLM从零构建/00-教程分析.md",
     "00-总览.md",
-    "05-LLM从零构建/GPT推理流程全景.canvas",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
     "05-LLM从零构建/01-学习路线图.md",
     "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
@@ -242,10 +241,7 @@
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/04-VA-视频动作模型.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/03-VLA-视觉语言动作模型.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/02-Vision与Depth感知层.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/01-六模型全景解读.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究",
-    "tasks/T006-WS-TactileHeatmapViz.md",
-    "tasks/T005-WS-TactileDataInjection.md",
     "tasks",
     "shared/agents/market-research",
     "shared/agents/report-assistant",
