@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-LLM从零构建/01-学习路线图.md",
+                "file": "05-LLM从零构建/学习心得/2026-07-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-学习路线图"
+              "title": "2026-07-31"
             }
           }
         ],
@@ -213,6 +213,7 @@
   },
   "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
+    "05-LLM从零构建/01-学习路线图.md",
     "05-LLM从零构建/GPT推理流程全景.canvas",
     "05-LLM从零构建/学习笔记/01.6-GPT推理流程深度讲解.md",
     "05-LLM从零构建/学习笔记/03-Attention机制-预习笔记.md",
@@ -229,7 +230,6 @@
     "05-LLM从零构建/00-教程分析.md",
     "00-总览.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
-    "05-LLM从零构建/01-学习路线图.md",
     "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
     "05-LLM从零构建/学习笔记",
     "05-LLM从零构建/学习心得",
