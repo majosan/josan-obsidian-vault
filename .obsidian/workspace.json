@@ -11,10 +11,14 @@
             "id": "c3db850d7a42ef9d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "06-Blender/blender学习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blender学习笔记"
             }
           }
         ],
@@ -209,6 +213,10 @@
   },
   "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
+    "04-实验室自动化/触觉复现指南.md",
+    "04-实验室自动化/分步路线图.md",
+    "06-Blender/blender学习笔记.md",
+    "06-Blender",
     "05-LLM从零构建/学习笔记/04-GPT模型实现-预习笔记.md",
     "05-LLM从零构建/学习心得/2026-07-31.md",
     "05-LLM从零构建/00-教程分析.md",
@@ -237,15 +245,11 @@
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/06-VLA与VA对比与切换逻辑.md",
     "半导体产业链/芯片.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究/11-沈宇军访谈要点.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/09-避坑指南与启发.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/08-项目映射-无人实验场景.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/07-为什么拆成六个模型.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究",
     "tasks",
     "shared/agents/market-research",
     "shared/agents/report-assistant",
     "shared/agents/ceo-chief",
-    "shared/agents/business-market",
     "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
     "deepseek_mermaid_20260717_68a9fa.png"
   ]
