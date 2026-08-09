@@ -21,3 +21,8 @@
 
 ![[Pasted image 20260809104238.png]]
 
+界面的快捷键
+- ctrl + space 回复界面
+
+什么是游标和原点：
+![[Pasted image 20260809104821.png]]
