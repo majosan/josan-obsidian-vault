@@ -28,3 +28,6 @@
 ![[Pasted image 20260809104821.png]]  
 shift + 右键 点哪里游标出现哪里
 shift + c  游标就回到原来最初的位置
+shift + s 调出Π的控制盘专门是为游标进行控制
+
+![[Pasted image 20260809111310.png]]
