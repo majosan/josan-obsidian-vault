@@ -25,4 +25,5 @@
 - ctrl + space 回复界面
 
 什么是游标和原点：
-![[Pasted image 20260809104821.png]]
+![[Pasted image 20260809104821.png]]  
+shift + 右键 点哪里游标出现哪里
