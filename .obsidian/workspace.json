@@ -97,12 +97,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-AI化学实验室/项目实施/原位红外/DRIFTS-机器人化-项目简报.md",
+                "file": "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "DRIFTS-机器人化-项目简报 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai-chem-lab笔记/lab_robot_training/Move_Grasp（强化学习).md",
+                "file": "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Move_Grasp（强化学习) 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -227,9 +227,9 @@
   },
   "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
-    "01-AI化学实验室/项目实施/原位红外/VIDE[video]()O.md",
-    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
     "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+    "01-AI化学实验室/项目实施/原位红外/VIDE[video]()O.md",
     "01-AI化学实验室/项目实施/原位红外/VIDEO.md",
     "01-AI化学实验室/项目实施/原位红外/().md",
     "01-AI化学实验室/项目实施/原位红外/《竞品深度对标报告-20260810》.md",
