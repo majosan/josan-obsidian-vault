@@ -211,7 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 770.5
+    "width": 691.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,10 +225,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "d4bb4e655b6421d8",
+  "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
-    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
     "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
     "01-AI化学实验室/项目实施/原位红外/《竞品深度对标报告-20260810》.md",
     "05-LLM从零构建/学习心得/2026-07-29.md",
     "projects/ai-chem-lab/documents/DRIFTS-机器人化-项目简报.md",
