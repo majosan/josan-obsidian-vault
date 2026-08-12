@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+                "file": "01-AI化学实验室/项目实施/原位红外/DRIFTS双臂机器人操作流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "科学实验操作智能体系统-项目简报"
+              "title": "DRIFTS双臂机器人操作流程"
             }
           }
         ],
@@ -215,10 +215,13 @@
       "bases:新建数据库": false
     }
   },
-  "active": "e74c6d475019cfa1",
+  "active": "c3db850d7a42ef9d",
   "lastOpenFiles": [
-    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "01-AI化学实验室/项目实施/原位红外/原位红外双臂灵巧手机器人操作要求.pdf",
     "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+    "01-AI化学实验室/项目实施/原位红外/LabVLA适配性评估.md",
+    "01-AI化学实验室/项目实施/原位红外/DRIFTS双臂机器人操作流程.md",
+    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
     "01-AI化学实验室/项目实施/原位红外/VIDE[video]()O.md",
     "01-AI化学实验室/项目实施/原位红外/VIDEO.md",
     "01-AI化学实验室/项目实施/原位红外/().md",
@@ -241,9 +244,6 @@
     "05-LLM从零构建/学习心得/2026-07-30.md",
     "Ai-chemical-lab项目工作计划/knowledge知识点.md",
     "01-AI化学实验室/学习心得.md",
-    "Ai-chemical-lab项目工作计划/工作分解.md",
-    "05-LLM从零构建/00-教程分析.md",
-    "00-总览.md",
     "05-LLM从零构建/学习笔记",
     "05-LLM从零构建/学习心得",
     "05-LLM从零构建/setup-llm-env.ps1",
@@ -253,7 +253,6 @@
     "shared/agents/market-research",
     "shared/agents/report-assistant",
     "shared/agents/ceo-chief",
-    "shared/agents/business-market",
     "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
     "deepseek_mermaid_20260717_68a9fa.png"
   ]
