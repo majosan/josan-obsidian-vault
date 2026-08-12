@@ -195,16 +195,6 @@
               "icon": "lucide-file",
               "title": "2026-07-29"
             }
-          },
-          {
-            "id": "302b888b6f4307a4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
         "currentTab": 5
@@ -225,7 +215,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "c3db850d7a42ef9d",
+  "active": "e74c6d475019cfa1",
   "lastOpenFiles": [
     "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
     "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
