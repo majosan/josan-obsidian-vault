@@ -1,0 +1,12 @@
+/* Mermaid 图表居中显示 */
+.block-language-mermaid {
+  display: flex;
+  justify-content: center;
+}
+.mermaid {
+  text-align: center;
+}
+.mermaid svg {
+  display: block;
+  margin: 0 auto;
+}
