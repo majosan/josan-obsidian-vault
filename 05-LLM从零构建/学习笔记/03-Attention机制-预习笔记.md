@@ -5,7 +5,7 @@ tags:
   - Ch3
   - Attention
   - 预习
-data: 2026-07-31
+date: 2026-07-31
 ---
 
 # 🎯 Ch3 Attention 机制 — 预习笔记
