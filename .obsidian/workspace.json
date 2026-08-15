@@ -197,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 657.5
+    "width": 1001.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +211,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3db850d7a42ef9d",
+  "active": "75e4163985eed6f3",
   "lastOpenFiles": [
+    "06-Blender/blender学习笔记.md",
+    "conflict-files-obsidian-git.md",
+    "git",
+    "03-专利与IP/正交结构在先专利检索分析.md",
+    "03-专利与IP/威海矩侨专利风险分析.md",
+    "03-专利与IP/威海矩侨专利逐项SOP风险分析.md",
+    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+    "01-AI化学实验室/项目启动与融资决策分析-内部.md",
+    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "01-AI化学实验室/决策说明.md",
     "assets/Pasted image 20260809115439.png",
     "assets/Pasted image 20260809114416.png",
     "assets/Pasted image 20260809113940.png",
@@ -225,7 +235,6 @@
     "assets",
     "04-实验室自动化/触觉复现指南.md",
     "04-实验室自动化/分步路线图.md",
-    "06-Blender/blender学习笔记.md",
     "06-Blender",
     "05-LLM从零构建/学习笔记/04-GPT模型实现-预习笔记.md",
     "05-LLM从零构建/学习心得/2026-07-31.md",
@@ -243,22 +252,13 @@
     "05-LLM从零构建/学习心得/2026-07-29.md",
     "Ai-chemical-lab项目工作计划/knowledge知识点.md",
     "01-AI化学实验室/学习心得.md",
-    "Ai-chemical-lab项目工作计划/工作分解.md",
-    "00-总览.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
-    "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
     "05-LLM从零构建/学习笔记",
     "05-LLM从零构建/学习心得",
     "05-LLM从零构建/setup-llm-env.ps1",
     "05-LLM从零构建",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/10-VA落地实现-触觉视频-光谱序列.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/06-VLA与VA对比与切换逻辑.md",
-    "半导体产业链/芯片.md",
     "01-AI化学实验室/蚂蚁灵波-具身智能研究",
     "tasks",
     "shared/agents/market-research",
-    "shared/agents/report-assistant",
-    "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
-    "deepseek_mermaid_20260717_68a9fa.png"
+    "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png"
   ]
 }
