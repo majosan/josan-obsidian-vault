@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "科学实验操作智能体系统-项目简报"
             }
+          },
+          {
+            "id": "9879754cbd74e177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,10 +199,31 @@
       "bases:新建数据库": false
     }
   },
-  "active": "0831de9152e09521",
+  "active": "9879754cbd74e177",
   "lastOpenFiles": [
-    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
     "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+    "conflict-files-obsidian-git.md",
+    "git",
+    "assets/Pasted image 20260809115439.png",
+    "assets/Pasted image 20260809114416.png",
+    "assets/Pasted image 20260809113940.png",
+    "assets/Pasted image 20260809113732.png",
+    "assets/Pasted image 20260809111310.png",
+    "assets/Pasted image 20260809104821.png",
+    "assets/Pasted image 20260809113718.png",
+    "assets/Pasted image 20260809104057.png",
+    "assets/Pasted image 20260809104238.png",
+    "assets",
+    "06-Blender/blender学习笔记.md",
+    "06-Blender",
+    "03-专利与IP/正交结构在先专利检索分析.md",
+    "03-专利与IP/威海矩侨专利风险分析.md",
+    "03-专利与IP/威海矩侨专利逐项SOP风险分析.md",
+    "02-触觉传感器/市场调研/强脑科技BrainCo-尽调与匹配分析.md",
+    "02-触觉传感器/市场调研/强脑科技-投资方协同拓展分析.md",
+    "01-AI化学实验室/项目启动与融资决策分析-内部.md",
+    "01-AI化学实验室/决策说明.md",
+    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
     "04-实验室自动化/协作场景.md",
     "01-AI化学实验室/商业分析/实验室研发场景分析.md",
     "SETUP_WINDOWS.md",
@@ -204,27 +240,14 @@
     "调研/technical-roadmap.md",
     "调研/T-Rex讲解结合项目技术方向讲解.md",
     "调研/T-Rex.md",
-    "调研/STAG-MIT-Nature2019.md",
-    "调研/STAG-MIT-Nature2019 技术迁移.md",
-    "调研/STAG 薄膜缝制 vs 你的织物刺绣.md",
-    "调研/RoboGenesis.md",
-    "调研/project-leader-handbook.md",
-    "调研/LabVLA，T-Rex和RobotGenesis讲解.md",
-    "调研/LabVLA框架解读.md",
-    "调研/LabVLA.md",
-    "调研/LABVAL整个流程细节理解.md",
     "调研",
     "半导体产业链",
     "tasks",
     "shared/agents/report-assistant",
     "shared/agents/market-research",
     "shared/agents/ceo-chief",
-    "shared/agents/business-market",
-    "shared/agents",
-    "shared",
     "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
     "05-LLM从零构建/GPT推理流程全景.canvas",
-    "未命名.canvas",
-    "deepseek_mermaid_20260717_68a9fa.png"
+    "未命名.canvas"
   ]
 }
