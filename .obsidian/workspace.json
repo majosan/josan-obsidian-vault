@@ -1,60 +1,61 @@
 {
   "main": {
-    "id": "e4bb9b63fda226f1",
+    "id": "8b4ee00ee397774e",
     "type": "split",
     "children": [
       {
-        "id": "b317e66e5fdeb442",
+        "id": "e3d121cb8b67a236",
         "type": "tabs",
         "children": [
           {
-            "id": "c3db850d7a42ef9d",
+            "id": "7fdfefed3b8923b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-LLM从零构建/学习笔记/03-Attention机制-预习笔记.md",
+                "file": "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Attention机制-预习笔记"
+              "title": "科学实验操作智能体系统-项目简报"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f9465562ad82e5c2",
+    "id": "dd8ca65547c4e858",
     "type": "split",
     "children": [
       {
-        "id": "324315cb768b1713",
+        "id": "7eaca39cdc5935ea",
         "type": "tabs",
         "children": [
           {
-            "id": "e74c6d475019cfa1",
+            "id": "0831de9152e09521",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "444a3866271db285",
+            "id": "a3001ec7cc2de059",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "hm-re",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +67,7 @@
             }
           },
           {
-            "id": "668898225098d0e7",
+            "id": "1fa921413c85b874",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,58 +80,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 300
   },
   "right": {
-    "id": "1746ddbdfb945581",
+    "id": "cdd5252a350969bd",
     "type": "split",
     "children": [
       {
-        "id": "a82a2a9350e93d52",
+        "id": "60e67c7693fae066",
         "type": "tabs",
         "children": [
           {
-            "id": "2f2dcb945b7e1201",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "01-AI化学实验室/项目实施/原位红外/DRIFTS-机器人化-项目简报.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "DRIFTS-机器人化-项目简报 的出链列表"
-            }
-          },
-          {
-            "id": "3bfc894b386b6267",
+            "id": "005498f9ed3a26a6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
+                "file": "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02-文本数据处理-Ch2数据输入Pipeline 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "0e3df2af47328b0a",
+            "id": "c140bd9619b1e671",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "a52591fe9e023008",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
-                "showSearch": true,
+                "useHierarchy": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "ee9bcc8660c4c4b9",
+            "id": "5230c411347416e9",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,103 +152,79 @@
             }
           },
           {
-            "id": "dcb7d336cb474f42",
+            "id": "ceac5d0ae43f4741",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai-chem-lab笔记/lab_robot_training/Move_Grasp（强化学习).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Move_Grasp（强化学习) 的大纲"
-            }
-          },
-          {
-            "id": "d4bb4e655b6421d8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "75e4163985eed6f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-LLM从零构建/学习心得/2026-07-29.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-29"
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 657.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "bases:新建数据库": false
     }
   },
-  "active": "c3db850d7a42ef9d",
+  "active": "0831de9152e09521",
   "lastOpenFiles": [
-    "05-LLM从零构建/学习笔记/02.1-Ch2代码实践-Embedding与PositionEmbedding深度理解.md",
-    "05-LLM从零构建/学习笔记/01-环境搭建与概念入门.md",
-    "05-LLM从零构建/学习笔记/03-Attention机制-预习笔记.md",
-    "05-LLM从零构建/学习心得/2026-07-31.md",
-    "05-LLM从零构建/学习笔记/01.5-概念深度剖析-LLM全景地图.md",
-    "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
-    "05-LLM从零构建/学习心得/2026-07-30.md",
-    "05-LLM从零构建/GPT推理流程全景.canvas",
-    "05-LLM从零构建/学习心得/2026-07-29.md",
-    "05-LLM从零构建/学习笔记/01.6-GPT推理流程深度讲解.md",
-    "Ai-chemical-lab项目工作计划/knowledge知识点.md",
-    "01-AI化学实验室/学习心得.md",
-    "Ai-chemical-lab项目工作计划/工作分解.md",
-    "05-LLM从零构建/00-教程分析.md",
+    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+    "04-实验室自动化/协作场景.md",
+    "01-AI化学实验室/商业分析/实验室研发场景分析.md",
+    "SETUP_WINDOWS.md",
+    "SETUP_GUIDE.md",
+    "README.md",
+    "Gitee的push.md",
     "00-总览.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/_index.md",
-    "05-LLM从零构建/01-学习路线图.md",
-    "01-AI化学实验室/项目实施/MuJoCo场景生成prompt.md",
-    "05-LLM从零构建/学习笔记",
-    "05-LLM从零构建/学习心得",
-    "05-LLM从零构建/setup-llm-env.ps1",
-    "05-LLM从零构建",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/10-VA落地实现-触觉视频-光谱序列.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/06-VLA与VA对比与切换逻辑.md",
-    "半导体产业链/芯片.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/11-沈宇军访谈要点.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/09-避坑指南与启发.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/08-项目映射-无人实验场景.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/07-为什么拆成六个模型.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/05-World世界模型与Video视频基模.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究/04-VA-视频动作模型.md",
-    "01-AI化学实验室/蚂蚁灵波-具身智能研究",
+    "调研/预训练和后训练的理解.md",
+    "调研/项目里的专业名词分解.md",
+    "调研/调研.7z",
+    "调研/世界模型的理解.md",
+    "调研/上海ai-lab详解及技术拆解分析.md",
+    "调研/VQ-VAE 编码框架.md",
+    "调研/technical-roadmap.md",
+    "调研/T-Rex讲解结合项目技术方向讲解.md",
+    "调研/T-Rex.md",
+    "调研/STAG-MIT-Nature2019.md",
+    "调研/STAG-MIT-Nature2019 技术迁移.md",
+    "调研/STAG 薄膜缝制 vs 你的织物刺绣.md",
+    "调研/RoboGenesis.md",
+    "调研/project-leader-handbook.md",
+    "调研/LabVLA，T-Rex和RobotGenesis讲解.md",
+    "调研/LabVLA框架解读.md",
+    "调研/LabVLA.md",
+    "调研/LABVAL整个流程细节理解.md",
+    "调研",
+    "半导体产业链",
     "tasks",
-    "shared/agents/market-research",
     "shared/agents/report-assistant",
+    "shared/agents/market-research",
     "shared/agents/ceo-chief",
     "shared/agents/business-market",
+    "shared/agents",
+    "shared",
     "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
+    "05-LLM从零构建/GPT推理流程全景.canvas",
+    "未命名.canvas",
     "deepseek_mermaid_20260717_68a9fa.png"
   ]
 }
