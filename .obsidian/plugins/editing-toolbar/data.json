@@ -432,11 +432,7 @@
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
   "cMenuWidth": 610,
-<<<<<<< HEAD
   "cMenuFontColor": "#00b050",
-=======
-  "cMenuFontColor": "#9bbb59",
->>>>>>> origin/main
   "cMenuBackgroundColor": "#fff88f",
   "autohide": false,
   "Iscentered": false,
