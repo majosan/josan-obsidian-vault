@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
+                "file": "07-WorkBuddy/公众号内容运营规范（初稿）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "科学实验操作智能体系统-项目简报"
-            }
-          },
-          {
-            "id": "9879754cbd74e177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "公众号内容运营规范（初稿）"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 339.8999938964844
   },
   "right": {
     "id": "cdd5252a350969bd",
@@ -189,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -199,10 +183,37 @@
       "bases:新建数据库": false
     }
   },
-  "active": "9879754cbd74e177",
+  "active": "0831de9152e09521",
   "lastOpenFiles": [
+    "03-专利与IP/杭州织序科技-竞对专利风险分析与规避建议.md",
+    "03-专利与IP/杭州织序科技-专利与软著布局规划.md",
+    "07-WorkBuddy/WorkBuddy-房地产赋能方案.md",
+    "07-WorkBuddy/公众号内容运营规范（初稿）.md",
+    "07-WorkBuddy/市场部门新手收集清单-访谈提纲.md",
+    "07-WorkBuddy/〇、认识AI Agent，了解 WorkBuddy.md",
+    "AI/物理AI.md",
+    "半导体产业链/公众号内容运营规范（初稿）.md",
+    "05-其他/南烯经编机项目.md",
+    "03-专利与IP/威海矩侨专利风险分析.md",
+    "03-专利与IP/正交结构在先专利检索分析.md",
+    "03-专利与IP/威海矩侨专利逐项SOP风险分析.md",
+    "03-专利与IP/柔性触觉手套-专利交底书.md",
+    "02-触觉传感器/市场调研/强脑科技BrainCo-尽调与匹配分析.md",
     "01-AI化学实验室/项目实施/原位红外/科学实验操作智能体系统-项目简报.md",
-    "conflict-files-obsidian-git.md",
+    "01-AI化学实验室/项目实施/原位红外/原位红外双臂灵巧手机器人操作要求.pdf",
+    "02-触觉传感器/市场调研/强脑科技-投资方协同拓展分析.md",
+    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
+    "05-其他/芯片.md",
+    "05-其他/新建 文本文档.md",
+    "05-其他/新建 文本文档.txt",
+    "02-触觉传感器/柔性触觉手套/分析报告.md",
+    "07-WorkBuddy",
+    "02-触觉传感器/柔性触觉手套/ClaudeCode提示分析.md",
+    "02-触觉传感器/市场调研/专利分析.md",
+    "02-触觉传感器/市场调研/中国市场分析.md",
+    "02-触觉传感器/市场调研/行业概览.md",
+    "02-触觉传感器/项目概述.md",
+    "02-触觉传感器/市场调研/现有方案分析.md",
     "git",
     "assets/Pasted image 20260809115439.png",
     "assets/Pasted image 20260809114416.png",
@@ -214,38 +225,11 @@
     "assets/Pasted image 20260809104057.png",
     "assets/Pasted image 20260809104238.png",
     "assets",
-    "06-Blender/blender学习笔记.md",
     "06-Blender",
-    "03-专利与IP/正交结构在先专利检索分析.md",
-    "03-专利与IP/威海矩侨专利风险分析.md",
-    "03-专利与IP/威海矩侨专利逐项SOP风险分析.md",
-    "02-触觉传感器/市场调研/强脑科技BrainCo-尽调与匹配分析.md",
-    "02-触觉传感器/市场调研/强脑科技-投资方协同拓展分析.md",
-    "01-AI化学实验室/项目启动与融资决策分析-内部.md",
-    "01-AI化学实验室/决策说明.md",
-    "01-AI化学实验室/商业分析/竞品深度对标报告-20260810.md",
-    "04-实验室自动化/协作场景.md",
-    "01-AI化学实验室/商业分析/实验室研发场景分析.md",
-    "SETUP_WINDOWS.md",
-    "SETUP_GUIDE.md",
-    "README.md",
-    "Gitee的push.md",
-    "00-总览.md",
-    "调研/预训练和后训练的理解.md",
-    "调研/项目里的专业名词分解.md",
     "调研/调研.7z",
-    "调研/世界模型的理解.md",
-    "调研/上海ai-lab详解及技术拆解分析.md",
-    "调研/VQ-VAE 编码框架.md",
-    "调研/technical-roadmap.md",
-    "调研/T-Rex讲解结合项目技术方向讲解.md",
-    "调研/T-Rex.md",
     "调研",
     "半导体产业链",
     "tasks",
-    "shared/agents/report-assistant",
-    "shared/agents/market-research",
-    "shared/agents/ceo-chief",
     "projects/ai-chem-lab/references/bc9f25f19293db7baee5f8ec9c046c22.png",
     "05-LLM从零构建/GPT推理流程全景.canvas",
     "未命名.canvas"
