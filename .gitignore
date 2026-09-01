@@ -1,6 +1,8 @@
 # Obsidian
 .obsidian/workspace.json
 .obsidian/workspace
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
 .trash/
 
 # ===== AI 工作区系统文件（不同步到 Obsidian）=====
