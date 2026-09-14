@@ -148,7 +148,7 @@
 |---|---|---|
 | **smartcor CONTROL 心电胸带** | 24sens | 房颤（Vorhofflimmern）检测；**24/7 长时程记录**；传感器 + 记录单元；可穿数周至数月、**可水洗**、两种尺码无性别区分；**已通过 EU 认证**，正在 Vorarlberg 与医生做测试；**生产在 Lustenau**；计划加入心率/呼吸/睡眠监测 |
 | **线上长时程心电 + 医生报告** | Vprotect | **标价 €249**，面向消费者在网店直销（"您的线上心脏病学"）；另有口罩等品类与 EU 合规声明 |
-| **Wisbi 智能床垫插层** | Texible | 检测**潮湿、体液、离床**并自动报警；Home / Plus 两版（有英文/德文样册）；参与 **Interreg 巴伐利亚-奥地利 "Smart Care Assist"** 护理床研究项目 |
+| **Wisbi 智能床垫插层** | Texible | 检测**潮湿、体液、离床**并自动报警；Home / Plus 两版（样册已存档：[Home 版](../assets/Grabher智能织物调研/TEXIBLE-Wisbi-HOME_ENG_brochure.pdf) ｜ [Plus 版](../assets/Grabher智能织物调研/TEXIBLE-Wisbi-PLUS_EN_Brochure.pdf) ｜ [Interreg 项目海报](../assets/Grabher智能织物调研/Interreg_Kommunikationsmittel_A3_Plakat_Quer.pdf)）；参与 **Interreg 巴伐利亚-奥地利 "Smart Care Assist"** 护理床研究项目 |
 | **ANGEL 智能工装** | Texible × Adresys | 通过集成电极检测**电击事故或跌倒**并自动启动救援链；带手动报警与作业计时器 |
 | **Stappone 足底压力传感鞋垫** | Texible | **整面纺织压力传感器**置于鞋垫内；因足部机械负荷大，宣称**耐久性比标准薄膜压力传感器高 50 倍** |
 | **WAIBROsports 腰带** | Texible | 让视障运动员独立运动 |
@@ -219,7 +219,7 @@ KARL MAYER (德国)               GRABHER GROUP (奥地利 Lustenau)       医�
 
 **P0（接触与验证，2–4 周内）**
 1. **接触 Grabher 生态的"研发入口"而不是销售入口**：V-trion（**Dr. Gaffar Hossain**、**Enrico Grabher**；Millennium Park 15, Lustenau）是明确对外做联合项目的机构；Texible（info@texible.com，Widagasse 9, Dornbirn）公开说"从想法到量产一站式"，**它就是最合适的对接方**。话术建议：**"我们是中国侧的柔性传感织物与加热织物制造方，希望成为你们的器件供应商/联合开发伙伴"**，不要一上来谈卖公司。
-2. **先看 Wisbi**：下载 Texible Wisbi Home/Plus 样册（官网有英文版[官网](https://www.texible.com/smart-textiles/)），逐条对比你的 SKU-2 康养床垫——**它的功能集（潮湿/体液/离床 + 分级告警）和你 PRD 里的设计重合度极高**，这是最快的竞品情报来源。
+2. **先看 Wisbi**：Texible Wisbi Home/Plus 样册**已存档到本地**（[Home 版](../assets/Grabher智能织物调研/TEXIBLE-Wisbi-HOME_ENG_brochure.pdf) ｜ [Plus 版](../assets/Grabher智能织物调研/TEXIBLE-Wisbi-PLUS_EN_Brochure.pdf) ｜ [Interreg "Smart Care Assist" 项目海报](../assets/Grabher智能织物调研/Interreg_Kommunikationsmittel_A3_Plakat_Quer.pdf)，官网 [texible.com/smart-textiles](https://www.texible.com/smart-textiles/)），逐条对比你的 SKU-2 康养床垫——**它的功能集（潮湿/体液/离床 + 分级告警）和你 PRD 里的设计重合度极高**，这是最快的竞品情报来源。
 3. **把"刺绣 + TFP"作为发热布与传感阵列的正式工艺主线写进内部立项**（TFP 明确列出"纺织加热元件"应用），**双针床经编机项目按既有"阶段门"原则停止追加投入**。
 
 **P1（能力补齐，1–3 个月）**
