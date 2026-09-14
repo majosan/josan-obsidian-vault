@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "e4bb9b63fda226f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b317e66e5fdeb442",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3db850d7a42ef9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "douyin_pj/06-技术内容账号方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06-技术内容账号方案"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9465562ad82e5c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "324315cb768b1713",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e74c6d475019cfa1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "444a3866271db285",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "hm-re",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "668898225098d0e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 386.5
+  },
+  "right": {
+    "id": "1746ddbdfb945581",
+    "type": "split",
+    "children": [
+      {
+        "id": "a82a2a9350e93d52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f2dcb945b7e1201",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-AI化学实验室/项目实施/原位红外/DRIFTS-机器人化-项目简报.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "DRIFTS-机器人化-项目简报 的出链列表"
+            }
+          },
+          {
+            "id": "3bfc894b386b6267",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05-LLM从零构建/学习笔记/02-文本数据处理-Ch2数据输入Pipeline.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "02-文本数据处理-Ch2数据输入Pipeline 的反向链接列表"
+            }
+          },
+          {
+            "id": "0e3df2af47328b0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ee9bcc8660c4c4b9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "dcb7d336cb474f42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ai-chem-lab笔记/lab_robot_training/Move_Grasp（强化学习).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Move_Grasp（强化学习) 的大纲"
+            }
+          },
+          {
+            "id": "d4bb4e655b6421d8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "75e4163985eed6f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-LLM从零构建/学习心得/2026-07-29.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-29"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 1001.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "c3db850d7a42ef9d",
+  "lastOpenFiles": [
+    "douyin_pj/05-提示词模板库.md",
+    "douyin_pj/04-生产SOP与工具清单.md",
+    "douyin_pj/06-技术内容账号方案.md",
+    "douyin_pj/00-项目档案.md",
+    "douyin_pj/README.md",
+    "douyin_pj/07-技术内容选题库.md",
+    "douyin_pj/03-第一条视频-完整脚本.md",
+    "douyin_pj/10-前3篇完整内容.md",
+    "douyin_pj/09-小红书运营SOP.md",
+    "douyin_pj/02-选题库.md",
+    "douyin_pj/01-起号方案.md",
+    "08-其他/南烯公司出售与资产重组策略.md",
+    "assets/附件表格资料/~$钜桥和尧乐融资历程.xlsx",
+    "07-WorkBuddy/WorkBuddy-房地产赋能方案.md",
+    "assets/附件表格资料/钜桥和尧乐融资历程.xlsx",
+    "assets/附件表格资料",
+    "assets/b7c3038af334ecb21cf91c7905463f6f.jpeg",
+    "07-WorkBuddy/人机双写.md",
+    "07-WorkBuddy/公众号内容运营规范（初稿）.md",
+    "assets/Pasted image 20260809104057.png",
+    "douyin_pj/11-第一步-最小行动清单.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/工作分解.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/plansteps.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/Phase 1 验收结果.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/labvla-setup-guide.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/labvla-phase2-mission.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/labvla-claudecode-checklist.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/LabVLA 使用 Conda 搭建量化推理环境指南.md",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划/knowledge知识点.md",
+    "08-其他/归档-旧版/Ai-chemical-lab/项目立项书.md",
+    "08-其他/归档-旧版/Ai-chemical-lab/上海ai-lab详解及技术拆解分析.md",
+    "08-其他/归档-调研/调研.7z",
+    "08-其他/归档-旧版/Ai-chemical-lab项目工作计划",
+    "08-其他/归档-旧版/Ai-chemical-lab",
+    "08-其他/归档-调研",
+    "08-其他/归档-旧版",
+    "08-其他",
+    "07-WorkBuddy",
+    "assets/Pasted image 20260809115439.png",
+    "assets/Pasted image 20260809114416.png",
+    "assets/Pasted image 20260809113940.png",
+    "assets/Pasted image 20260809113732.png",
+    "assets/Pasted image 20260809113718.png",
+    "assets/Pasted image 20260809111310.png",
+    "assets/Pasted image 20260809104821.png",
+    "assets/Pasted image 20260809104238.png",
+    "05-LLM从零构建/GPT推理流程全景.canvas"
+  ]
+}
