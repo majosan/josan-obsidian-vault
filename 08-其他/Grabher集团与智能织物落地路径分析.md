@@ -8,12 +8,12 @@
 2. [Textile Focus：KARL MAYER's smart shirt with integrated sensors（2019-12-27）](https://textilefocus.com/karl-mayers-smart-shirt-integrated-sensors-opening-new-applications/)
 3. [World of Technical Textile：KARL MAYER and Grabher support wearables projects with competence platform（2024-03-13）](https://worldoftechnicaltextile.com/karl-mayer-and-grabher-support-wearables-projects-with-competence-platform/)
 4. [Grabher Group 官网 www.grabher-group.company](https://www.grabher-group.company/)（含子公司 V-trion / Texible / 24sens / Vprotect 独立站点）
-**关联文档**：[卡尔迈耶经编机设备与技术分析.md](卡尔迈耶经编机设备与技术分析.md)
+**关联文档**：[卡尔迈耶经编机设备与技术分析.md](卡尔迈耶经编机设备与技术分析.md) —— **本文是其第 14 节的完整版**
 **说明**：本机沙箱封了常规 HTTPS 客户端，本次改用 Node 自带 TLS 栈直读各站正文，**下列官网引文均为原文抓取**（非二手转述）。凡二手或推断均已标注。
 
-> 📌 **本文件为独立可转发版本**（保留，便于单独分享/引用）。内容与《[卡尔迈耶经编机设备与技术分析.md](卡尔迈耶经编机设备与技术分析.md)》**第 14 节**同源，均为 2026-09-14 由 DSH 执行、以 Node 直读官网正文的同一批调研。
-> **两份文件的关系**：本文＝Grabher 与"谁在做智能织物"这一问的完整答案，可单独转发；主报告＝卡尔迈耶设备/技术的完整答案（**其第 5、6、7、9 节**与本文件直接呼应），便于整体阅读。
-> ⚠️ **同步提醒**：本文与主报告第 14 节目前内容一致。**若只更新其中一处，另一处会漂移**——需要更新时告诉 DSH，两处一并改。
+> 📌 **本文是 Grabher 部分的唯一完整版**（2026-09-14 由 DSH 执行、Node 直读官网正文的同一批调研），独立可转发。
+> **两份文件的关系**：本文＝Grabher 与"谁在做智能织物"这一问的完整答案；主报告《[卡尔迈耶经编机设备与技术分析.md](卡尔迈耶经编机设备与技术分析.md)》＝卡尔迈耶设备/技术的完整答案（**其第 5、6、7、9 节**与本文件直接呼应），**其第 14 节仅保留本文的结论先行、并指向本文件**。
+> ✅ **防漂移（2026-09-14 已去重）**：原主报告第 14 节与本文全文重复，现已只保留结论先行。**Grabher 部分今后只在本文维护**，改这一处即可。
 
 
 ---
