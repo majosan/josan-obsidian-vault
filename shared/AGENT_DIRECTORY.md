@@ -16,44 +16,44 @@ projects/*/agents/   ← 项目专属角色
 
 ## 1. 主 Agent — 传感前锋 ⚡
 
-| 属性 | 内容 |
-|------|------|
-| **身份** | AI工作伙伴，Josan 的主要对话接口 |
-| **路径** | 主程序（无独立 profile 文件） |
-| **职责** | 路由分发、全局协调、项目监管、记忆维护 |
-| **对接方式** | Josan 直接对话 |
+| 属性       | 内容                   |
+| -------- | -------------------- |
+| **身份**   | AI工作伙伴，Josan 的主要对话接口 |
+| **路径**   | 主程序（无独立 profile 文件）  |
+| **职责**   | 路由分发、全局协调、项目监管、记忆维护  |
+| **对接方式** | Josan 直接对话           |
 
 ## 2. 跨项目通用 Agent（shared/agents/）
 
-| 代号 | 职责 | 配置路径 |
-|------|------|---------|
-| **周报官 📝** | 日报收集 + 周报生成 + 周二汇报准备 | `shared/agents/report-assistant/profile.md` |
-| **市场调研专家 📊** | 行业数据、竞品分析、只讲事实 | `shared/agents/market-research/profile.md` |
-| **业务市场专家 💼** | 商业模式判断、商业落地评估 | `shared/agents/business-market/profile.md` |
-| **CEO/参谋长 🧠** | 全局指挥、任务拆解、质量把控 | `shared/agents/ceo-chief/profile.md` |
+| 代号             | 职责                   | 配置路径                                        |
+| -------------- | -------------------- | ------------------------------------------- |
+| **周报官 📝**     | 日报收集 + 周报生成 + 周二汇报准备 | `shared/agents/report-assistant/profile.md` |
+| **市场调研专家 📊**  | 行业数据、竞品分析、只讲事实       | `shared/agents/market-research/profile.md`  |
+| **业务市场专家 💼**  | 商业模式判断、商业落地评估        | `shared/agents/business-market/profile.md`  |
+| **CEO/参谋长 🧠** | 全局指挥、任务拆解、质量把控       | `shared/agents/ceo-chief/profile.md`        |
 
 ## 3. 项目专属 Agent
 
 ### 🔬 tech-project-sensor（柔性织物压力传感）
 
-| 代号 | 职责 | 配置路径 |
-|------|------|---------|
-| 技术产品专家 🔧 | 产品定义、技术路线把关 | `projects/tech-project-sensor/agents/tech-product/profile.md` |
-| 产品经理 📋 | 需求定义、功能设计 | `projects/tech-project-sensor/agents/product-manager/profile.md` |
-| 研发工程师 💻 | 技术实现、编码落地 | `projects/tech-project-sensor/agents/rd-engineer/profile.md` |
-| 质量工程师 ✅ | 测试验证、品质把控 | `projects/tech-project-sensor/agents/qa-tester/profile.md` |
+| 代号        | 职责          | 配置路径                                                             |
+| --------- | ----------- | ---------------------------------------------------------------- |
+| 技术产品专家 🔧 | 产品定义、技术路线把关 | `projects/tech-project-sensor/agents/tech-product/profile.md`    |
+| 产品经理 📋   | 需求定义、功能设计   | `projects/tech-project-sensor/agents/product-manager/profile.md` |
+| 研发工程师 💻  | 技术实现、编码落地   | `projects/tech-project-sensor/agents/rd-engineer/profile.md`     |
+| 质量工程师 ✅   | 测试验证、品质把控   | `projects/tech-project-sensor/agents/qa-tester/profile.md`       |
 
 ### 🧪 ai-chem-lab（AI化学实验室）
 
-| 代号 | 职责 | 配置路径 |
-|------|------|---------|
-| 仿真工程师 🦾 | MuJoCo/RL 仿真技术 | `projects/ai-chem-lab/agents/simulation-engineer/profile.md` |
-| chief-agent 🧠 | 化学实验室专属指挥 | `projects/ai-chem-lab/agents/chief-agent/profile.md` |
+| 代号             | 职责             | 配置路径                                                         |
+| -------------- | -------------- | ------------------------------------------------------------ |
+| 仿真工程师 🦾       | MuJoCo/RL 仿真技术 | `projects/ai-chem-lab/agents/simulation-engineer/profile.md` |
+| chief-agent 🧠 | 化学实验室专属指挥      | `projects/ai-chem-lab/agents/chief-agent/profile.md`         |
 
 ### 📜 patents（专利管理）
 
-| 代号 | 职责 | 配置路径 |
-|------|------|---------|
+| 代号             | 职责         | 配置路径                                              |
+| -------------- | ---------- | ------------------------------------------------- |
 | **专利Agent 📜** | 专利交底书撰写与管理 | `projects/patents/agents/patent-agent/profile.md` |
 
 ## 4. 技术探讨 Agent
