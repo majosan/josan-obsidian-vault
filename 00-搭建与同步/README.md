@@ -9,11 +9,24 @@
 ## 知识库目录
 
 ```
-00-总览.md              ← 从这里开始
-01-AI化学实验室/         ← 高通量无人化学实验平台 + LabVLA 项目
-02-触觉传感器/           ← 柔性织物触觉传感器
-03-专利与IP/             ← 发明专利/实用新型
-04-实验室自动化/          ← 机械臂部署与仿真
+00-总览.md              ← 从这里开始（总索引）
+00-AI入口/               ← 给本地 AI/Agent 的阅读理解层（先读这个）
+00-搭建与同步/            ← 本目录：环境搭建与同步说明
+01-AI化学实验室/         ← 高通量无人化学实验平台 + LabVLA + 具身智能
+02-触觉传感器/           ← 柔性织物触觉传感器 + 触觉手套
+03-专利与IP/             ← 发明专利/实用新型 + 竞品风险
+04-实验室自动化/          ← 机械臂部署与 MuJoCo 仿真
+05-LLM从零构建/          ← LLMs-from-scratch 学习计划
+06-Blender/             ← Blender 3D 建模学习
+07-WorkBuddy/           ← 房地产集团 AI 赋能（山水集团）
+08-其他/                ← 南烯出售/资产重组、FA、Teaser、对外分析
+09-加热传感Demo产品线/    ← 加热+传感 Demo PRD + 养老床垫系统
+10-经编机项目/           ← 南烯经编机合同纠纷技术评判
+11-小红书副业/           ← 造物者工程师 IP（原 douyin_pj）
+12-半导体产业链/          ← 芯片产业链笔记
+assets/                 ← 图片素材
+shared/                 ← Agent 协作共享上下文
+tasks/                  ← 任务板
 ```
 
 ## 协作工作流
@@ -47,12 +60,14 @@ git clone https://github.com/majosan/josan-obsidian-vault.git
    - Auto pull：10 分钟
    - Pull on startup：开启
 
-### 项目目录
+### 功能区
 
 ```
-projects/     ← 项目详细文档
-tasks/        ← 任务板（传感前锋发活）
+assets/       ← 图片素材
+tasks/        ← 任务板（传感前锋发活，Claude Code 认领）
 shared/       ← 共享上下文（agent 协作用）
 ```
+
+> 注：AI 的**项目上下文层**（`projects/*/CONTEXT.md` + `sessions/` + `memory/`）不在此 vault 内，仅保留在服务器本地，不入 git。
 
 > **Windows 用户**：打开终端，运行 `.\bridge.ps1` 即可一键 pull → 显示待办 → 完成时 push
