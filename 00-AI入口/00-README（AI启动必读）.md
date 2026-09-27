@@ -58,7 +58,7 @@ josan-vault/
 ├── 10-经编机项目/         ← 南烯经编机合同纠纷的技术评判（维权线）
 ├── 11-自媒体/            ← 自媒体矩阵（小红书/抖音/视频号 · 造物者工程师 IP，原 douyin_pj）
 ├── shared/               ← 多 Agent 协作的共享上下文（UNIFIED_CONTEXT / AGENT_DIRECTORY）
-├── tasks/                ← 任务板（主 Agent 发活，Claude Code 认领）
+├── tasks/                ← 任务板机制（历史任务已归档到各项目 `任务归档/`）
 ├── assets/               ← 图片素材
 └── 12-半导体产业链/       ← 芯片产业链笔记
 ```

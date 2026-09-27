@@ -26,7 +26,7 @@
 12-半导体产业链/          ← 芯片产业链笔记
 assets/                 ← 图片素材
 shared/                 ← Agent 协作共享上下文
-tasks/                  ← 任务板
+tasks/                  ← 任务板机制（历史任务已归档到各项目 任务归档/）
 ```
 
 ## 协作工作流
@@ -64,7 +64,7 @@ git clone https://github.com/majosan/josan-obsidian-vault.git
 
 ```
 assets/       ← 图片素材
-tasks/        ← 任务板（传感前锋发活，Claude Code 认领）
+tasks/        ← 任务板（传感前锋发活，Claude Code 认领；历史任务已归档到各项目 任务归档/）
 shared/       ← 共享上下文（agent 协作用）
 ```
 
