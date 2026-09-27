@@ -25,9 +25,10 @@
 11-自媒体/              ← 自媒体矩阵（小红书/抖音/视频号 · 造物者工程师 IP，原 douyin_pj）
 12-半导体产业链/          ← 芯片产业链笔记
 assets/                 ← 图片素材
-shared/                 ← Agent 协作共享上下文
-tasks/                  ← 任务板机制（历史任务已归档到各项目 任务归档/）
 ```
+
+> Agent 协作体系（UNIFIED_CONTEXT / AGENT_DIRECTORY / agents 角色）在 `00-AI入口/协作体系/`。
+> 任务约定：无全局 `tasks/`，新任务直接放对应项目目录下。
 
 ## 协作工作流
 
@@ -64,8 +65,7 @@ git clone https://github.com/majosan/josan-obsidian-vault.git
 
 ```
 assets/       ← 图片素材
-tasks/        ← 任务板（传感前锋发活，Claude Code 认领；历史任务已归档到各项目 任务归档/）
-shared/       ← 共享上下文（agent 协作用）
+00-AI入口/协作体系/  ← Agent 协作上下文（UNIFIED_CONTEXT / AGENT_DIRECTORY / agents）
 ```
 
 > 注：AI 的**项目上下文层**（`projects/*/CONTEXT.md` + `sessions/` + `memory/`）不在此 vault 内，仅保留在服务器本地，不入 git。

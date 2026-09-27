@@ -8,7 +8,7 @@
 ## 架构总览
 
 ```
-shared/agents/       ← 跨项目通用角色
+00-AI入口/协作体系/agents/       ← 跨项目通用角色
 projects/*/agents/   ← 项目专属角色
 ```
 
@@ -23,14 +23,14 @@ projects/*/agents/   ← 项目专属角色
 | **职责**   | 路由分发、全局协调、项目监管、记忆维护  |
 | **对接方式** | Josan 直接对话           |
 
-## 2. 跨项目通用 Agent（shared/agents/）
+## 2. 跨项目通用 Agent（00-AI入口/协作体系/agents/）
 
 | 代号             | 职责                   | 配置路径                                        |
 | -------------- | -------------------- | ------------------------------------------- |
-| **周报官 📝**     | 日报收集 + 周报生成 + 周二汇报准备 | `shared/agents/report-assistant/profile.md` |
-| **市场调研专家 📊**  | 行业数据、竞品分析、只讲事实       | `shared/agents/market-research/profile.md`  |
-| **业务市场专家 💼**  | 商业模式判断、商业落地评估        | `shared/agents/business-market/profile.md`  |
-| **CEO/参谋长 🧠** | 全局指挥、任务拆解、质量把控       | `shared/agents/ceo-chief/profile.md`        |
+| **周报官 📝**     | 日报收集 + 周报生成 + 周二汇报准备 | `00-AI入口/协作体系/agents/report-assistant/profile.md` |
+| **市场调研专家 📊**  | 行业数据、竞品分析、只讲事实       | `00-AI入口/协作体系/agents/market-research/profile.md`  |
+| **业务市场专家 💼**  | 商业模式判断、商业落地评估        | `00-AI入口/协作体系/agents/business-market/profile.md`  |
+| **CEO/参谋长 🧠** | 全局指挥、任务拆解、质量把控       | `00-AI入口/协作体系/agents/ceo-chief/profile.md`        |
 
 ## 3. 项目专属 Agent
 

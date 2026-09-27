@@ -10,8 +10,8 @@ A4S Chem-Lab (GitHub 私有仓库)
 │   ├── tech-project-sensor/   ← 全柔性织物压力传感
 │   │   └── subprojects/tactile-glove/  ← 触觉手套
 │   └── ai-chem-lab/           ← AI 化学实验室
-├── tasks/                     ← 任务板
-└── shared/                    ← 共享上下文
+├── tasks/                     ← 任务板（2026-09 废弃，任务改放各项目目录下）
+└── shared/                    ← 共享上下文（Agent 协作文档，vault 内见 `00-AI入口/协作体系/`）
 ```
 
 ## 参与方
@@ -24,7 +24,7 @@ A4S Chem-Lab (GitHub 私有仓库)
 
 ## 协作协议
 
-1. **传感前锋**在 `tasks/` 目录写 task markdown 文件
+1. **传感前锋**在**对应项目目录下**写 task markdown 文件（原 `tasks/` 已废弃）
 2. **Claude Code 机器** pull → 认领 → 执行 → push 结果
 3. **传感前锋** review → 在 task 中写评语 → 关闭或迭代
 4. **Josan** 是最终决策者，通过飞书沟通

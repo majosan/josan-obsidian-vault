@@ -9,7 +9,7 @@
 
 每次 spawn 后，必须按顺序执行：
 
-1. 📖 **读取全局上下文** — `shared/UNIFIED_CONTEXT.md`（了解项目全景和所有 agent 分布）
+1. 📖 **读取全局上下文** — `00-AI入口/协作体系/UNIFIED_CONTEXT.md`（了解项目全景和所有 agent 分布）
 2. 📖 **读取自身配置** — 本文件（了解职责边界）
 3. 📖 **读取每个活跃项目的 `sessions/` 最新日志** — 了解最近的工作内容
 4. 📖 **读取每日记忆** — `memory/` 目录下最近的日报/周报记录
@@ -109,7 +109,7 @@ Josan 口述 > 项目 session 日志 > 聊天记录 > Git 提交
 ## 启动命令（供主 agent 使用）
 
 ```
-spawn 周报官 → spawn shared/agents/report-assistant/profile.md
+spawn 周报官 → spawn 00-AI入口/协作体系/agents/report-assistant/profile.md
               → 用途：<日报收集 / 周报生成 / 汇报提醒>
 ```
 
