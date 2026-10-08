@@ -5,7 +5,7 @@ tags:
   - 养老
   - 追踪更新
   - 资料摘录
-关联文档: "[[TEXIBLE-Wisbi产品资料摘录]]、[[织物传感空间化与场景包概念 v0.1]]、[[Grabher集团与智能织物落地路径分析]]、[[智能床垫压力监测垫系统 · 场景与角色 v1.1]]"
+关联文档: "[[TEXIBLE-Wisbi产品资料摘录]]、[[织物传感空间化与场景包 v0.1]]、[[Grabher集团与智能织物落地路径分析]]、[[智能床垫压力监测垫系统 · 场景与角色 v1.1]]"
 来源: texible.com 官网（home / about-us / projects / production / smart-textiles）、英国经销商产品页（willowhealthcaresupplies / manageathome / medchemuk）、AAL 产品目录、官方样册 PDF
 ---
 # 竞品 TEXIBLE Wisbi 追踪更新（V0.1）
@@ -115,6 +115,14 @@ CLASSIC（湿）/ **PLUS**（机构·湿+离床）/ **HOME**（居家·WiFi+App�
 - AAL 产品目录：aal-products.com（页面标注"Last updated 04.03.2022"）
 - 奥地利经销商：georgegger.at（Wisbi PLUS 快速指南）
 - 官方样册：TEXIBLE-Wisbi-PLUS / HOME（本地存档 `assets/Grabher智能织物调研/`）
+
+---
+
+## 七、修订历史
+
+| 日期 | 版本 | 修改人 | 变更摘要 |
+|---|---|---|---|
+| 2026-10-08 | V0.1 | 传感前锋 | 初稿：公司（2016 因斯布鲁克衍生）、在售与价格锚点（£255–315）、HOME=WiFi+App、工艺扩至丝印/激光、待补清单 |
 
 ---
 
