@@ -6,7 +6,7 @@ tags:
   - 开发执行
 关联文档: "[[README]]、[[01-云平台功能结构（文字整理稿）]]、[[03-云平台 UI 设计大纲（范围）]]、[[智能床垫压力监测垫系统 · 功能需求 v1.1]]、[[设备通信协议与数据规范 v1.0]]、[[织物传感空间化与场景包 v0.1]]"
 编写人员: 传感前锋
-版本: V0.2
+版本: V0.3
 ---
 # 织序智慧感知守护平台 · 后台改造交接书（dhs 执行版）
 
@@ -241,11 +241,16 @@ numpy==1.24.3 · pyserial==3.5 · python-multipart==0.0.6 · starlette==0.27.0
 ### 11.3 目标架构
 
 ```
+                        ┌─ MockSource（模拟器 · 无硬件）
+[数据源适配层] ◀─────────┼─ SerialSource（pyserial · 过渡期串口）
+                        └─ MqttSource（MQTT 订阅 · WiFi/IoT，到位即用）
+        │
+        ▼
 [Vue3 前端 SPA] ── HTTPS/JSON ──▶ [FastAPI 业务后端] ── SQLAlchemy ──▶ [MySQL]
                                         │
                                         ├── Redis（缓存 / 队列，可选）
                                         ├── APScheduler（定时：报表聚合 / 离线判定）
-                                        └── httpx（对接 IoT 平台 / 短信网关）
+                                        └── httpx（对接 短信 / 第三方）
 ```
 
 ### 11.4 技术栈清单
@@ -255,6 +260,8 @@ numpy==1.24.3 · pyserial==3.5 · python-multipart==0.0.6 · starlette==0.27.0
 | 后端框架 | **FastAPI** | 保留 |
 | ASGI | uvicorn | 保留 |
 | 校验 | pydantic v2 | 保留 |
+| **消息接入** | **MQTT**（`paho-mqtt`）；开发期本地 Broker：**EMQX / mosquitto** | 🆕 新增 |
+| **数据源适配** | `DataSourceAdapter`：`MockSource` / `SerialSource`(pyserial) / `MqttSource` | 🆕 新增 |
 | **数据库** | **MySQL 8** | 🆕 新增 |
 | ORM / 迁移 | **SQLAlchemy 2.0 + Alembic** | 🆕 新增 |
 | 驱动 | PyMySQL | 🆕 新增 |
@@ -278,6 +285,7 @@ passlib[bcrypt]>=1.7
 apscheduler>=3.10
 pydantic-settings>=2.0
 httpx>=0.27
+paho-mqtt>=2.0   # MQTT 订阅（无线/IoT 数据源）
 ```
 
 ### 11.6 原则（含"不做什么"）
@@ -285,6 +293,7 @@ httpx>=0.27
 - **单体 + 前后端分离**，**不上微服务 / K8s**。
 - **不要用 FastAPI 直接渲染 HTML**（老做法）→ 前端全部走 Vue3 SPA。
 - **采集 / 网关与业务后台解耦**（`pyserial` 那部分不混进业务 API）。
+- **数据源用统一适配器**（`MockSource` / `SerialSource` / `MqttSource`）：**上层（后台/数据库/前端）零改动**，只换适配器实现。
 - 图表统一 **ECharts**；组件统一 **Naive UI**；主题用 `themeOverrides` 定制"银白 / 卡片式"（见 `03`）。
 - 多角色 / 多租户：权限在 **API 层 + 字段级**落实。
 - **真实数据优先**：看板数字**可下钻**到设备 / 事件。
@@ -298,6 +307,31 @@ httpx>=0.27
   - 将来：`WiFi 硬件 → IoT 平台/MQTT → [同一适配层] → 后台`（**只换适配层，后台零改动**）
 - **开发/演示**：用 **虚拟设备 / 模拟器**（造 3~10 台设备的事件流：在床 / 离床 / 坠床风险 / 久卧 / 离线）→ **无硬件即可把后台做到"可演示、可验收"**。
 - **结论**：dhs **现在即可开发后台**；WiFi 硬件到位后，仅替换数据源适配器并联调。
+
+### 11.8 本地测试与部署（开发期：用本机当服务器）
+
+**开发期（本机即服务器，无需公网）**
+- 本机 `docker compose up` 起 `api(FastAPI) + mysql + redis`；前端 `npm run dev`；用 `localhost` 联调。
+- 后端接口用自带 **`/docs`（Swagger）** 直接自测。
+- 数据全部由**模拟器 / MQTT 客户端**灌入，**不需要真实硬件**。
+
+**三档数据源（统一走 `DataSourceAdapter`，上层零改动）**
+
+| 档 | 数据源实现 | 说明 |
+|---|---|---|
+| ① 无硬件 | `MockSource`（模拟器） | 造 3~10 台设备事件流；**现在就能全链路测** |
+| ② 串口 | `SerialSource`（`pyserial`） | 现有串口硬件 → 适配器 → 后端（过渡期） |
+| ③ 无线 | `MqttSource`（MQTT 订阅） | 设备 / IoT 平台经 MQTT → 后端；**WiFi 到位即用** |
+
+**MQTT 自测（不用等硬件，就能验证"无线新方案"）**
+- 本地起 Broker：**EMQX** 或 **mosquitto**（Docker 一行）。
+- 用 **MQTTX（GUI）/ `mosquitto_pub` / EMQX 面板**，**按《设备通信协议与数据规范 v1.0》的 topic 与 JSON 报文**，模拟设备发布数据。
+- 后端用 `paho-mqtt` 订阅同一 topic → 走**与串口完全同一条**处理链路。
+- → **协议已定，所以可先用 MQTT 软件模拟设备，直接切到"无线新方案"**，不必等硬件。
+
+**对外 / 上线部署**
+- 一台**可公网访问的服务器**（云服务器）+ **域名 + HTTPS**（小程序强制）+ Nginx 托管前端；`docker compose` 一键起。
+- 开发期在**本机**跑即可；等要给别人/小程序看时，再把后端搬到云服务器。
 
 ---
 
@@ -331,3 +365,4 @@ httpx>=0.27
 
 *V0.1 — 2026-10-10。据与 Josan 对齐的多轮讨论整理，供 dhs 改造旧后台使用。*
 *V0.2 — 2026-10-10。新增 **§11 技术架构选型**（确认后端 FastAPI；决策保留 Python 不换 Java；新增 MySQL/SQLAlchemy/Alembic/Redis/JWT/APScheduler；前端 Vue3+Naive UI；单体前后端分离）。*
+*V0.3 — 2026-10-10。§11 更新：新增 **MQTT 消息接入 + 三档数据源适配器（Mock/Serial/MQTT）**、`paho-mqtt` 依赖；新增 **§11.7 过渡期数据源**、**§11.8 本地测试与部署（本机当服务器 / MQTT 自测）**。*
