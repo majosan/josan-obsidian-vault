@@ -6,7 +6,7 @@ tags:
   - 开发执行
 关联文档: "[[README]]、[[01-云平台功能结构（文字整理稿）]]、[[03-云平台 UI 设计大纲（范围）]]、[[智能床垫压力监测垫系统 · 功能需求 v1.1]]、[[设备通信协议与数据规范 v1.0]]、[[织物传感空间化与场景包 v0.1]]"
 编写人员: 传感前锋
-版本: V0.1
+版本: V0.2
 ---
 # 织序智慧感知守护平台 · 后台改造交接书（dhs 执行版）
 
@@ -217,12 +217,77 @@ tags:
 
 ---
 
-## 11. 技术栈与实现建议
+## 11. 技术架构选型（2026-10-10 更新）
 
-- **保留**原后端服务；**前端**建议：Tailwind CSS + ECharts + 轻量 JS（或 Vue3 + Naive UI，若需组件化）。
-- 图表统一 **ECharts**；表格统一封装组件；**设计 token** 统一（见 `03`）。
-- 多角色 / 多租户：权限在 API 层与字段级落实。
-- **真实数据优先**：看板数字**可下钻**到设备/事件。
+### 11.1 现状（旧后台依赖，已确认）
+
+```
+fastapi==0.104.1 · uvicorn[standard]==0.24.0 · pydantic==2.5.0
+numpy==1.24.3 · pyserial==3.5 · python-multipart==0.0.6 · starlette==0.27.0
+```
+
+→ 结论：后端 = **Python + FastAPI**（现代异步 API 框架）。
+
+> ⚠️ **两个重要发现**：
+> 1. **当前没有数据库依赖**（无 `SQLAlchemy`、无 MySQL 驱动）→ **本轮"加数据库"是核心新增工作**。
+> 2. **依赖含 `pyserial`** → 现在这个 FastAPI 后端**还兼着"读串口"（PC 网关）的活**，采集与后台耦合。**建议解耦**：将来设备走 WiFi/IoT 平台，业务后台不该管串口（见《功能需求 v1.1》架构）。
+
+### 11.2 决策：**保留 Python / FastAPI，不换 Java（Spring Boot）**
+
+针对"旧后端是 Python + 单人开发 + 基本靠 AI(dhs) 写 + 不熟 Java"：**不重构为 Spring Boot**。
+理由：换 Java = 后端**重写**（非改造）+ 运维更重（JVM）+ 更难把关；而"脚手架红利"在 AI 写代码时并不成立。
+→ **FastAPI + Vue3 前后端分离 = 最优解**。
+
+### 11.3 目标架构
+
+```
+[Vue3 前端 SPA] ── HTTPS/JSON ──▶ [FastAPI 业务后端] ── SQLAlchemy ──▶ [MySQL]
+                                        │
+                                        ├── Redis（缓存 / 队列，可选）
+                                        ├── APScheduler（定时：报表聚合 / 离线判定）
+                                        └── httpx（对接 IoT 平台 / 短信网关）
+```
+
+### 11.4 技术栈清单
+
+| 层 | 选型 | 动作 |
+|---|---|---|
+| 后端框架 | **FastAPI** | 保留 |
+| ASGI | uvicorn | 保留 |
+| 校验 | pydantic v2 | 保留 |
+| **数据库** | **MySQL 8** | 🆕 新增 |
+| ORM / 迁移 | **SQLAlchemy 2.0 + Alembic** | 🆕 新增 |
+| 驱动 | PyMySQL | 🆕 新增 |
+| 缓存 / 队列 | Redis（可选） | 🆕 新增 |
+| 鉴权 | JWT（PyJWT + passlib[bcrypt]） | 🆕 新增 |
+| 定时任务 | APScheduler | 🆕 新增 |
+| 配置 | pydantic-settings（.env） | 🆕 新增 |
+| HTTP 客户端 | httpx | 🆕 新增 |
+| **前端** | **Vue3 + Vite + Naive UI + ECharts + Axios + Pinia** | 🆕 重建 |
+| 部署 | **Docker Compose**（api + mysql + redis + nginx） | 🆕 |
+
+### 11.5 新增依赖（追加进 requirements，供 dhs 参考）
+
+```
+sqlalchemy>=2.0
+alembic>=1.13
+pymysql>=1.1
+redis>=5.0
+pyjwt>=2.8
+passlib[bcrypt]>=1.7
+apscheduler>=3.10
+pydantic-settings>=2.0
+httpx>=0.27
+```
+
+### 11.6 原则（含"不做什么"）
+
+- **单体 + 前后端分离**，**不上微服务 / K8s**。
+- **不要用 FastAPI 直接渲染 HTML**（老做法）→ 前端全部走 Vue3 SPA。
+- **采集 / 网关与业务后台解耦**（`pyserial` 那部分不混进业务 API）。
+- 图表统一 **ECharts**；组件统一 **Naive UI**；主题用 `themeOverrides` 定制"银白 / 卡片式"（见 `03`）。
+- 多角色 / 多租户：权限在 **API 层 + 字段级**落实。
+- **真实数据优先**：看板数字**可下钻**到设备 / 事件。
 
 ---
 
@@ -258,3 +323,4 @@ tags:
 ---
 
 *V0.1 — 2026-10-10。据与 Josan 对齐的多轮讨论整理，供 dhs 改造旧后台使用。*
+*V0.2 — 2026-10-10。新增 **§11 技术架构选型**（确认后端 FastAPI；决策保留 Python 不换 Java；新增 MySQL/SQLAlchemy/Alembic/Redis/JWT/APScheduler；前端 Vue3+Naive UI；单体前后端分离）。*
